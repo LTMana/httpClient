@@ -4,7 +4,7 @@
   "description": "原生node静态服务器",
   "main": "app.js",
   "scripts": {
-    "start": "pm2 start app.js --watch",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/LTMana/httpClient#readme",
   "devDependencies": {
+    "babel-eslint": "^8.0.2",
     "eslint": "^4.11.0",
     "eslint-plugin-html": "^4.0.0"
   },
   "dependencies": {
-    "chalk": "^2.3.0"
+    "chalk": "^2.3.0",
+    "handlebars": "^4.0.11"
   }
 }
