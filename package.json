@@ -2,9 +2,12 @@
   "name": "httpclient",
   "version": "1.0.0",
   "description": "原生node静态服务器",
-  "main": "app.js",
+  "main": "src/app.js",
+  "bin": {
+    "LTanydor": "bin/LTanydor"
+  },
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +27,7 @@
   },
   "dependencies": {
     "chalk": "^2.3.0",
-    "handlebars": "^4.0.11"
+    "handlebars": "^4.0.11",
+    "yargs": "^10.0.3"
   }
 }

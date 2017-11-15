@@ -4,6 +4,7 @@
     "jquery": "registry:dt/jquery#1.10.0+20170310222111"
   },
   "dependencies": {
-    "chalk": "registry:dt/chalk#0.4.0+20161012090828"
+    "chalk": "registry:dt/chalk#0.4.0+20161012090828",
+    "yargs": "registry:dt/yargs#6.6.0+20170202172539"
   }
 }
